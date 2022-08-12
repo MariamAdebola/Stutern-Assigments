@@ -86,8 +86,8 @@ for item in items:
 
 
 
-# # commit to database
-# conn.commit()
+#commit to database
+conn.commit()
 
-# #close connection
-# conn.close()
+#close connection
+conn.close()

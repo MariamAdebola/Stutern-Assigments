@@ -161,3 +161,9 @@ def popular_genre(column="genre"):
 
 #call the function
 popular_genre("genre")
+
+#commit to database
+conn.commit()
+
+#close connection
+conn.close()
