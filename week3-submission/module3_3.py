@@ -30,9 +30,8 @@ class StuternStudent:
         """print the full name"""
         return str(self.first) + " " + str(self.last)
 
-class GroupLeader(StuternStudent):
-
     """define the subclass"""
+class GroupLeader(StuternStudent):
 
     def __init__(self, first, last, student=[]):
 
