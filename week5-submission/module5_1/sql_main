@@ -1,0 +1,7 @@
+SELECT DISTINCT Name, cost_price, Quantity,
+        CASE
+        WHEN Quantity > 15 THEN "Sufficient"
+        ELSE "Restock"
+        END AS "Stock_option"
+        FROM stationery_table
+        ORDER BY cost_price DESC;

@@ -1,0 +1,21 @@
+course_id,student_name,course_title,total_score,course_duration
+1,Zainab,Machine Learning with Apache Spark,21,2
+2,Adeola,Financial Analytics in Spreadsheets,21,6
+3,Yetunde,Intermediate R,19,9
+4,Naheemot,Data Visualization with ggplot2 (Part 2),24,1
+5,Dada,Fraud Detection in R,18,5
+6,Hassan,Joining Data in SQL,19,9
+7,Thomas,Introduction to Python,19,6
+8,Balkis,Bayesian Modeling with RJAGS,19,9
+9,Mariam,Credit Risk Modeling in R,17,4
+10,Sadiq,Experimental Design in R,16,4
+11,Olu,Supervised Learning in R: Classification,23,11
+12,Sulaimon,Visualizing Time Series Data in R,23,3
+13,Victor,Equity Valuation in R,21,1
+14,Tawakalt,Intro to Portfolio Risk Management in Python,21,7
+15,Qudus,Data-Driven Decision Making in SQL,20,8
+16,Aishat,Intermediate Functional Programming with purrr,16,1
+17,Edu,Analyzing US Census Data in Python,16,7
+18,Stella,Network Analysis in Python (Part 1),15,6
+19,Ayomide,Introduction to Databases in Python,47,10
+20,Sadiq,Introduction to Git for Data Science,38,7

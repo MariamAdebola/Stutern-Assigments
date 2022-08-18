@@ -1,0 +1,30 @@
+-- 1. student with the highest score in Maths
+
+SELECT MAX(Math) FROM students;
+
+-- 2. Student with the lowest score in english
+SELECT MIN(English) FROM students;
+
+
+-- # 3. Average score of students in Maths
+SELECT AVG(Math) FROM students;
+
+-- # 4. Average score of students in English
+SELECT AVG(English) FROM students;
+
+-- # 5. the best performing student across all subjects
+SELECT Name, (English + Math + Commerce + Biology
+              + Physics + French + Yoruba + Economics
+              + Accounting) as
+              "Total" FROM students
+              Group by Name
+              ORDER BY Total DESC
+              LIMIT 1;
+
+--  6. student with the best avergae score across all subjects
+ SELECT Name, ROUND((English + Math + Commerce + Biology + Physics
+                    + French + Yoruba + Economics
+                    + Accounting)/9.0) as "Average_Score" FROM students
+                    Group by Name
+                    ORDER BY Average_Score DESC
+                    LIMIT 1;
